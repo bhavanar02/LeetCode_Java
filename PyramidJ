@@ -1,0 +1,27 @@
+class NormalPyramid 
+{
+    public static void main(String args[])
+    {
+
+        int cnt = 1;
+        int numofLevels = 5;
+        while(cnt <= numofLevels)
+        {
+            numofSpace = numofLevels - cnt;
+            spacecnt = 1;
+            while(spacecnt <= numofSpace)
+            {
+                System.out.println(" ", end="");
+                spacecnt += 1;
+            }
+            int numcnt = 1;
+            while(numcnt <= cnt)
+            {
+                System.out.println(cnt, " ", end="");
+                numcnt += 1;
+            }
+            System.out.println("\n");
+            cnt += 1;
+        }
+    }    
+}    
