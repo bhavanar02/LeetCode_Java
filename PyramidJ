@@ -1,4 +1,4 @@
-class Pyramid 
+class RegPyramid 
 {
     public static void main(String args[])
     {
